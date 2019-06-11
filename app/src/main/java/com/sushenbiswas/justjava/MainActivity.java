@@ -32,6 +32,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * My Coding Activity Stop Here
+     * My Coding Activity Stop Here . God Luck
      */
 }
