@@ -12,6 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    /**
+     * My Coding Activity start Here
+     */
 
     /**
      * This method is called when the order button is clicked.
