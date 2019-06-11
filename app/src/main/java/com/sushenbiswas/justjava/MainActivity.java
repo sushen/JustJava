@@ -30,4 +30,8 @@ public class MainActivity extends AppCompatActivity {
         TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
         quantityTextView.setText("" + number);
     }
+
+    /**
+     * My Coding Activity Stop Here
+     */
 }
