@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitOrder(View view) {
-        display("Hello World");
+        display(1);
     }
 
-    private void display(String text) {
+    private void display(int number) {
         TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
-        quantityTextView.setText("" + text);
+        quantityTextView.setText("" + number);
     }
 
 }
