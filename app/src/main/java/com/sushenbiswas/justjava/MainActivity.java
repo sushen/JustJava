@@ -1,8 +1,10 @@
 package com.sushenbiswas.justjava;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,26 +14,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    /**
-     * My Coding Activity start Here
-     */
 
-    /**
-     * This method is called when the order button is clicked.
-     */
     public void submitOrder(View view) {
-        display(1);
+        display("Hello World");
     }
 
-    /**
-     * This method displays the given quantity value on the screen.
-     */
-    private void display(int number) {
+    private void display(String text) {
         TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
-        quantityTextView.setText("" + number);
+        quantityTextView.setText("" + text);
     }
 
-    /**
-     * My Coding Activity Stop Here . God Luck
-     */
 }
