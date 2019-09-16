@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
      */
 
     public void submitOrder(View view) {
-        String price = "Free";
+        String price = "Too Expensive \r:) " ;
         displayMessage(price);
     }
 
